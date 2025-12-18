@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --breakpoint-xxs: 300px;
+        --breakpoint-xs: 390px;
+        --breakpoint-s: 465px;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white">
+    <main class="min-h-screen flex justify-center -mt-20">
+      <div class="w-full max-w-6xl px-5">
+        <section class="min-h-screen flex items-center justify-center">
+          <div class="text-center">
+            <div
+              class="font-extrabold text-[62px] sm:text-[150px] xl:text-[200px] sm:leading-[150px] md:leading-[200px] tracking-[-0.05em] bg-[linear-gradient(180deg,#F5F5F5_68%,rgba(245,245,245,0)_100%)] bg-clip-text text-transparent"
+            >
+              Not Found
+            </div>
+            <p
+              class="relative w-fit mx-auto font-extrabold text-[70px] sm:text-[150px] xl:text-[200px] leading-[1] md:leading-[200px] px-6 mt-[-50px] sm:mt-[-70px] md:mt-[-135px] lg:mt-[-140px] xl:mt-[-110px]"
+            >
+              <span
+                class="absolute inset-x-0 bottom-0 h-[45%] bg-[#FFE000] -z-10"
+              ></span>
+              404
+            </p>
+            <p
+              class="font-normal text-[18px] leading-[27px] my-12 text-[#585858]"
+            >
+              Halaman tidak ditemukan. Coba periksa URL-nya atau kembali ke
+              halaman utama.
+            </p>
+            <a
+              href="#"
+              class="inline-block bg-[#333333] text-white text-[18px] font-bold px-6 py-2 rounded-[4px]"
+            >
+              Halaman Utama
+            </a>
+          </div>
+        </section>
+
+        <div
+          class="border-t border-[#D9D9D9] xs:mb-[50px] xxs:mb-[30px] xxs:-mt-30 xs:-mt-30 s:-mt-40 sm:-mt-10"
+        ></div>
+
+        <section class="pb-10">
+          <div class="flex items-center justify-between mb-6">
+            <h2
+              class="s:text-2xl xxs:text-lg xs:text-xl font-extrabold flex items-center gap-2"
+            >
+              <span class="w-2 h-8 bg-[#FFE000]"></span>
+              Berita Lain Untuk Anda
+            </h2>
+            <a href="#" class="text-[12px] text-[#585858] hover:text-[#b4b4b4]">
+              Lihat Semua
+            </a>
+          </div>
+          <div
+            class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-8 gap-y-10"
+          >
+            <div
+              class="relative w-full max-sm:[&:nth-child(2n)]:[&>.divider]:hidden sm:max-lg:[&:nth-child(3n)]:[&>.divider]:hidden lg:[&:nth-child(5n)]:[&>.divider]:hidden [&:last-child]:[&>.divider]:hidden"
+            >
+              <div class="max-w-[192px] mx-auto space-y-2">
+                <img
+                  src="news.svg"
+                  class="w-full aspect-[191/120] object-cover rounded-[4px]"
+                />
+
+                <p
+                  class="xxs:text-[13px] xs:text-[16px] font-extrabold leading-6 line-clamp-2"
+                >
+                  Harga Buyback Rekor 14 Kali hingga Kamis (20/2), Pembeli Emas
+                  Antam Lebaran & 10 Tahun Cuan Makin Tebal
+                </p>
+
+                <div class="flex items-center gap-1">
+                  <svg
+                    width="13"
+                    height="12"
+                    viewBox="0 0 11 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.48406 0C5.68251 0.139989 5.73801 0.528792 5.80945 0.76206L6.66659 3.60806C6.99198 3.74024 7.53959 3.6936 7.89679 3.70915L11 3.77914L7.38889 6.14305L8.80957 9.83665C8.41273 9.69666 8.0159 9.32341 7.67464 9.06686L5.47624 7.41836L2.03176 10L3.42861 6.11196L0 3.75585L4.15082 3.67812C4.51585 2.465 4.90472 1.14306 5.48406 0Z"
+                      fill="url(#paint0_linear)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear"
+                        x1="5.45528"
+                        y1="0"
+                        x2="5.45528"
+                        y2="10.5263"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FBB042" />
+                        <stop offset="0.42" stop-color="#FFC167" />
+                        <stop offset="0.845" stop-color="#BE7601" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+
+                  <span
+                    class="font-bold text-[#333333] uppercase xxs:text-[9px] xs:text-[10px] sm:text-[12px] pr-2"
+                  >
+                    KONGLOMERASI
+                  </span>
+
+                  <span
+                    class="text-[#7E7E7E] xxs:text-[9px] xs:text-[10px] sm:text-[12px]"
+                  >
+                    25 menit lalu
+                  </span>
+                </div>
+              </div>
+
+              <span
+                class="divider pointer-events-none absolute top-0 right-[-1rem] h-full w-px bg-[#D9D9D9]"
+              ></span>
+            </div>
+            <div
+              class="relative w-full max-sm:[&:nth-child(2n)]:[&>.divider]:hidden sm:max-lg:[&:nth-child(3n)]:[&>.divider]:hidden lg:[&:nth-child(5n)]:[&>.divider]:hidden [&:last-child]:[&>.divider]:hidden"
+            >
+              <div class="max-w-[192px] mx-auto space-y-2">
+                <img
+                  src="news.svg"
+                  class="w-full aspect-[191/120] object-cover rounded-[4px]"
+                />
+
+                <p
+                  class="xxs:text-[13px] xs:text-[16px] font-extrabold leading-6 line-clamp-2"
+                >
+                  Harga Buyback Rekor 14 Kali hingga Kamis (20/2), Pembeli Emas
+                  Antam Lebaran & 10 Tahun Cuan Makin Tebal
+                </p>
+
+                <div class="flex items-center gap-1">
+                  <svg
+                    width="13"
+                    height="12"
+                    viewBox="0 0 11 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.48406 0C5.68251 0.139989 5.73801 0.528792 5.80945 0.76206L6.66659 3.60806C6.99198 3.74024 7.53959 3.6936 7.89679 3.70915L11 3.77914L7.38889 6.14305L8.80957 9.83665C8.41273 9.69666 8.0159 9.32341 7.67464 9.06686L5.47624 7.41836L2.03176 10L3.42861 6.11196L0 3.75585L4.15082 3.67812C4.51585 2.465 4.90472 1.14306 5.48406 0Z"
+                      fill="url(#paint0_linear)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear"
+                        x1="5.45528"
+                        y1="0"
+                        x2="5.45528"
+                        y2="10.5263"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FBB042" />
+                        <stop offset="0.42" stop-color="#FFC167" />
+                        <stop offset="0.845" stop-color="#BE7601" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+
+                  <span
+                    class="font-bold text-[#333333] uppercase xxs:text-[9px] xs:text-[10px] sm:text-[12px] pr-2"
+                  >
+                    KONGLOMERASI
+                  </span>
+
+                  <span
+                    class="text-[#7E7E7E] xxs:text-[9px] xs:text-[10px] sm:text-[12px]"
+                  >
+                    25 menit lalu
+                  </span>
+                </div>
+              </div>
+
+              <span
+                class="divider pointer-events-none absolute top-0 right-[-1rem] h-full w-px bg-[#D9D9D9]"
+              ></span>
+            </div>
+            <div
+              class="relative w-full max-sm:[&:nth-child(2n)]:[&>.divider]:hidden sm:max-lg:[&:nth-child(3n)]:[&>.divider]:hidden lg:[&:nth-child(5n)]:[&>.divider]:hidden [&:last-child]:[&>.divider]:hidden"
+            >
+              <div class="max-w-[192px] mx-auto space-y-2">
+                <img
+                  src="news.svg"
+                  class="w-full aspect-[191/120] object-cover rounded-[4px]"
+                />
+
+                <p
+                  class="xxs:text-[13px] xs:text-[16px] font-extrabold leading-6 line-clamp-2"
+                >
+                  Harga Buyback Rekor 14 Kali hingga Kamis (20/2), Pembeli Emas
+                  Antam Lebaran & 10 Tahun Cuan Makin Tebal
+                </p>
+
+                <div class="flex items-center gap-1">
+                  <svg
+                    width="13"
+                    height="12"
+                    viewBox="0 0 11 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.48406 0C5.68251 0.139989 5.73801 0.528792 5.80945 0.76206L6.66659 3.60806C6.99198 3.74024 7.53959 3.6936 7.89679 3.70915L11 3.77914L7.38889 6.14305L8.80957 9.83665C8.41273 9.69666 8.0159 9.32341 7.67464 9.06686L5.47624 7.41836L2.03176 10L3.42861 6.11196L0 3.75585L4.15082 3.67812C4.51585 2.465 4.90472 1.14306 5.48406 0Z"
+                      fill="url(#paint0_linear)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear"
+                        x1="5.45528"
+                        y1="0"
+                        x2="5.45528"
+                        y2="10.5263"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FBB042" />
+                        <stop offset="0.42" stop-color="#FFC167" />
+                        <stop offset="0.845" stop-color="#BE7601" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+
+                  <span
+                    class="font-bold text-[#333333] uppercase xxs:text-[9px] xs:text-[10px] sm:text-[12px] pr-2"
+                  >
+                    KONGLOMERASI
+                  </span>
+
+                  <span
+                    class="text-[#7E7E7E] xxs:text-[9px] xs:text-[10px] sm:text-[12px]"
+                  >
+                    25 menit lalu
+                  </span>
+                </div>
+              </div>
+
+              <span
+                class="divider pointer-events-none absolute top-0 right-[-1rem] h-full w-px bg-[#D9D9D9]"
+              ></span>
+            </div>
+            <div
+              class="relative w-full max-sm:[&:nth-child(2n)]:[&>.divider]:hidden sm:max-lg:[&:nth-child(3n)]:[&>.divider]:hidden lg:[&:nth-child(5n)]:[&>.divider]:hidden [&:last-child]:[&>.divider]:hidden"
+            >
+              <div class="max-w-[192px] mx-auto space-y-2">
+                <img
+                  src="news.svg"
+                  class="w-full aspect-[191/120] object-cover rounded-[4px]"
+                />
+
+                <p
+                  class="xxs:text-[13px] xs:text-[16px] font-extrabold leading-6 line-clamp-2"
+                >
+                  Harga Buyback Rekor 14 Kali hingga Kamis (20/2), Pembeli Emas
+                  Antam Lebaran & 10 Tahun Cuan Makin Tebal
+                </p>
+
+                <div class="flex items-center gap-1">
+                  <svg
+                    width="13"
+                    height="12"
+                    viewBox="0 0 11 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.48406 0C5.68251 0.139989 5.73801 0.528792 5.80945 0.76206L6.66659 3.60806C6.99198 3.74024 7.53959 3.6936 7.89679 3.70915L11 3.77914L7.38889 6.14305L8.80957 9.83665C8.41273 9.69666 8.0159 9.32341 7.67464 9.06686L5.47624 7.41836L2.03176 10L3.42861 6.11196L0 3.75585L4.15082 3.67812C4.51585 2.465 4.90472 1.14306 5.48406 0Z"
+                      fill="url(#paint0_linear)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear"
+                        x1="5.45528"
+                        y1="0"
+                        x2="5.45528"
+                        y2="10.5263"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FBB042" />
+                        <stop offset="0.42" stop-color="#FFC167" />
+                        <stop offset="0.845" stop-color="#BE7601" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+
+                  <span
+                    class="font-bold text-[#333333] uppercase xxs:text-[9px] xs:text-[10px] sm:text-[12px] pr-2"
+                  >
+                    KONGLOMERASI
+                  </span>
+
+                  <span
+                    class="text-[#7E7E7E] xxs:text-[9px] xs:text-[10px] sm:text-[12px]"
+                  >
+                    25 menit lalu
+                  </span>
+                </div>
+              </div>
+
+              <span
+                class="divider pointer-events-none absolute top-0 right-[-1rem] h-full w-px bg-[#D9D9D9]"
+              ></span>
+            </div>
+            <div
+              class="relative w-full max-sm:[&:nth-child(2n)]:[&>.divider]:hidden sm:max-lg:[&:nth-child(3n)]:[&>.divider]:hidden lg:[&:nth-child(5n)]:[&>.divider]:hidden [&:last-child]:[&>.divider]:hidden"
+            >
+              <div class="max-w-[192px] mx-auto space-y-2">
+                <img
+                  src="news.svg"
+                  class="w-full aspect-[191/120] object-cover rounded-[4px]"
+                />
+
+                <p
+                  class="xxs:text-[13px] xs:text-[16px] font-extrabold leading-6 line-clamp-2"
+                >
+                  Harga Buyback Rekor 14 Kali hingga Kamis (20/2), Pembeli Emas
+                  Antam Lebaran & 10 Tahun Cuan Makin Tebal
+                </p>
+
+                <div class="flex items-center gap-1">
+                  <svg
+                    width="13"
+                    height="12"
+                    viewBox="0 0 11 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.48406 0C5.68251 0.139989 5.73801 0.528792 5.80945 0.76206L6.66659 3.60806C6.99198 3.74024 7.53959 3.6936 7.89679 3.70915L11 3.77914L7.38889 6.14305L8.80957 9.83665C8.41273 9.69666 8.0159 9.32341 7.67464 9.06686L5.47624 7.41836L2.03176 10L3.42861 6.11196L0 3.75585L4.15082 3.67812C4.51585 2.465 4.90472 1.14306 5.48406 0Z"
+                      fill="url(#paint0_linear)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear"
+                        x1="5.45528"
+                        y1="0"
+                        x2="5.45528"
+                        y2="10.5263"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FBB042" />
+                        <stop offset="0.42" stop-color="#FFC167" />
+                        <stop offset="0.845" stop-color="#BE7601" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+
+                  <span
+                    class="font-bold text-[#333333] uppercase xxs:text-[9px] xs:text-[10px] sm:text-[12px] pr-2"
+                  >
+                    KONGLOMERASI
+                  </span>
+
+                  <span
+                    class="text-[#7E7E7E] xxs:text-[9px] xs:text-[10px] sm:text-[12px]"
+                  >
+                    25 menit lalu
+                  </span>
+                </div>
+              </div>
+              <span
+                class="divider pointer-events-none absolute top-0 right-[-1rem] h-full w-px bg-[#D9D9D9]"
+              ></span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
